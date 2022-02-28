@@ -10,10 +10,10 @@ function Navbar() {
     return (
         <div className='container-navbar'>
             <div className='menu'>
-                <a className='itens' href="https://www.youtube.com/channel/UCxce-OF2wpUmVu7Xnf84F8g" target="blank">
+                <a className='itens' href="https://www.youtube.com" alt="Youtube" target="blank">
                     <BsYoutube size={26} />
                 </a>
-                <a className='itens' href="https://github.com/lNyxNyx" target="blank">
+                <a className='itens' href="https://github.com/lNyxNyx" alt="Github" target="blank">
                     <AiOutlineGithub size={26} />
                 </a>
 

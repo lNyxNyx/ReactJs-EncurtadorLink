@@ -1,6 +1,8 @@
 import "../Home/styles.css";
 import { useState } from "react";
+import { ReactComponent as LogoIconn } from "../../assets/img/Logo.svg";
 import { FiLink } from "react-icons/fi";
+
 
 import Navbar from '../../components/Navbar';
 import Modal from "../../components/Modal";
@@ -32,7 +34,7 @@ function Home() {
     return (
         <div className="container-home">
             <div className="area-logo">
-                <img src="/img/logo.png" alt="logo - Sujeito-Links" />
+                <LogoIconn />
                 <h1> SujeitoLink</h1>
                 <span> Cole o seu link para encurtar ! 👇</span>
             </div>
