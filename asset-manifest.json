@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ReactJs-EncurtadorLink/static/css/main.2475be01.css",
-    "main.js": "/ReactJs-EncurtadorLink/static/js/main.01ddd2be.js",
+    "main.js": "/ReactJs-EncurtadorLink/static/js/main.a2d519e0.js",
     "static/media/notfound.svg": "/ReactJs-EncurtadorLink/static/media/notfound.83812656d4ce50939e170636e380a7a0.svg",
     "static/media/Logo.svg": "/ReactJs-EncurtadorLink/static/media/Logo.3bd8a30720d74537016cb76e6072e134.svg",
     "index.html": "/ReactJs-EncurtadorLink/index.html",
     "main.2475be01.css.map": "/ReactJs-EncurtadorLink/static/css/main.2475be01.css.map",
-    "main.01ddd2be.js.map": "/ReactJs-EncurtadorLink/static/js/main.01ddd2be.js.map"
+    "main.a2d519e0.js.map": "/ReactJs-EncurtadorLink/static/js/main.a2d519e0.js.map"
   },
   "entrypoints": [
     "static/css/main.2475be01.css",
-    "static/js/main.01ddd2be.js"
+    "static/js/main.a2d519e0.js"
   ]
 }
