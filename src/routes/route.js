@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
 import Home from "../pages/Home";
 import Erro from "../pages/Erro";
 import Links from "../pages/Links";
@@ -6,13 +7,14 @@ import Links from "../pages/Links";
 
 function RoutesApp() {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Routes>
-                <Route path="ReactJs-EncurtadorLink/" element={<Home />} />
-                <Route path="/*" element={<Erro />} />
-                <Route path="/Link" element={<Links />} />
+                <Route exact path="/" element={<Home />} />
+                <Route path="*" element={<Erro />} />
+                <Route exact path="/Link" element={<Links />} />
             </Routes>
-        </BrowserRouter>
+        </HashRouter>
+
     );
 };
 
