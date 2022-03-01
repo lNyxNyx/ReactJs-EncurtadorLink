@@ -3,7 +3,7 @@
     bottom: 18px;
     width: 650px;
     border-radius: 4px;
-    background-color: #fff;  
+    background-color: var(--main-color-font);
     display: flex;
     flex-direction: column;
     padding: 25px 49px;
@@ -34,7 +34,7 @@
 }
 .container-modal span{
     margin: 12px 0;
-    color: #A7A7A7;
+    color: var(--span-color);
 }
 
 .modal-link{
@@ -43,8 +43,8 @@
     justify-content: space-between;
     height: 30px;
     padding: 0 10px;
-    background-color: #172742;
-    color:#fff;
+    background-color: var(--main-color-modal);
+    color:var(--main-color-font);
     border:0;
     border-radius: 4px;
 

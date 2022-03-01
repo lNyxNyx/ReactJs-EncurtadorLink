@@ -36,17 +36,17 @@
 }
 
 .container-erro  h1{
-    color:#fff;
+    color:var(--main-color-font);
     margin-bottom: 23px;
 }
 
 .container-erro  a{
-    background-color: #fff;
+    background-color:var(--backuground-white);
     padding: 6px 21px;
     text-decoration: none;
     font-weight: bold;
     font-size: 23px;
-    color:#132742;
+    color:var(--a-color);
     border-radius: 6px;
     
 }

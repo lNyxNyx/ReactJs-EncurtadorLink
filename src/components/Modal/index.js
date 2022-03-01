@@ -7,7 +7,7 @@ function Modal({ closeModal, content }) {
     async function copyLink() {
 
         await navigator.clipboard.writeText(content.link);
-        alert("URL Copiada com sucesso");
+        alert("URL COPIADA COM SUCESSO !   ✔️");
     }
 
     return (

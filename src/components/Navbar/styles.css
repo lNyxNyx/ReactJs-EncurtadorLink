@@ -20,7 +20,7 @@
 }
 .menu svg{
     size:33px; 
-    color:#fff;
+    color:var(--main-color-font);
 
 }
 
@@ -31,9 +31,9 @@
 }
 
 .button-links{
-    background-color:#fff;
+    background-color:var(--main-color-font);
     font-weight: bold;
-    color:#14384D;
+    color: var(--main-color);
     padding: 9px 21px;
     border-radius: 8px;
     font-size: 10px;

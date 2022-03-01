@@ -6,8 +6,9 @@ import { FiLink } from "react-icons/fi";
 
 import Navbar from '../../components/Navbar';
 import Modal from "../../components/Modal";
-
 import api from '../../services/api';
+
+import { getLinksSave, saveLink } from "../../services/storeLink";
 
 function Home() {
     const [link, setLink] = useState('');
@@ -24,6 +25,7 @@ function Home() {
             setData(response.data);
             setshowModal(true);
             setLink('');
+            saveLink('@encurtaLink', response.data);
 
         } catch {
             alert("⚠️ Link Invalido ! ⚠️");

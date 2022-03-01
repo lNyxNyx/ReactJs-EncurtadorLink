@@ -1,3 +1,16 @@
+:root{
+
+  --main-color-font:#fff;
+  --backuground-white:#fff;
+  --backuground-link-color: rgba(255, 255, 255, 0.15);
+  --main-color:#14384D;
+  --placeholder-color:rgb(255,255,255,0.8);
+  --a-color:#132742;
+  --main-color-modal:#172742;
+  --span-color: #A7A7A7;
+  --black-color:#000;
+}
+
 *{
     margin:0;
     padding: 0;
