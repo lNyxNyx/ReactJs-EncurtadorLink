@@ -8,8 +8,8 @@ function RoutesApp() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="*" element={<Erro />} />
+                <Route path="ReactJs-EncurtadorLink/" element={<Home />} />
+                <Route path="/*" element={<Erro />} />
                 <Route path="/Link" element={<Links />} />
             </Routes>
         </BrowserRouter>
