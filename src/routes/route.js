@@ -9,9 +9,9 @@ function RoutesApp() {
     return (
         <HashRouter>
             <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route path="*" element={<Erro />} />
-                <Route exact path="/Link" element={<Links />} />
+                <Route path="/reactjs-encurtadorlink/" element={<Home />} />
+                <Route path="/*" element={<Erro />} />
+                <Route path="/Link" element={<Links />} />
             </Routes>
         </HashRouter>
 
