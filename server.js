@@ -16,7 +16,7 @@ app.use('/',
 
 app.listen(process.env.PORT || 3000, (err) => {
     if (err) {
-        <Erro />
+        return <Erro />
     }
     console.log('GG');
 });
