@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-export const key = "d63b7f02541fdb6bd13b829627066551c4e0ad92";
+const key = process.env.REACT_APP_TOKEN;
+
+console.log(key);
 
 const api = axios.create({
     baseURL: 'https://api-ssl.bitly.com/v4',
